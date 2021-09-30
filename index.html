@@ -5,13 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- Fonte Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <!-- ----- -->    
+    
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body onload = "designListaGeral();"> <!-- coloque 'onload' no 'body' para evitar dar erro: Uncaught TypeError: Cannot set properties of null (setting 'innerHTML') -->
     <h1 class="centro">Lista de Tarefas</h1>
-    <div id="container">        
-        <input type="text" id="entrada" value="teste">
+    <div id="container">
+        <p>Digite sua tarefa abaixo:</p>        
+        <input type="text" id="entrada" value="tarefa">
         <input type="button" id="botao" class="caixa" value="adicionar tarefa" onclick="addlista();designListaGeral()"><br>
         <hr>
         <input type="button" id="botao4" class="caixa" value="Limpar Tudo" onclick="limpar()">

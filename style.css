@@ -1,12 +1,11 @@
 *{
     margin: 0px;
-    padding: 0px;    
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
     background-color: rgb(6, 98, 236);
-    
-
 }
 
 #entrada{

@@ -30,7 +30,7 @@ function excluir(elemento) {
 function designListaGeral() {
     // serve para acrescentar listageral no html
     let conteudo = document.getElementById("result");
-    let listagravada = JSON.parse();
+    let listagravada = JSON.parse(localStorage.getItem("listageral"));
     let strchar = "";
     let num = 0;
     if (listagravada != null) {
